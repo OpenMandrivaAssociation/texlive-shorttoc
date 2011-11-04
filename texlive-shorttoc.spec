@@ -51,6 +51,7 @@ general overview of the main topics in the document.
 #- source
 %doc %{_texmfdistdir}/source/latex/shorttoc/shorttoc.dtx
 %doc %{_texmfdistdir}/source/latex/shorttoc/shorttoc.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -61,3 +62,5 @@ general overview of the main topics in the document.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
