@@ -6,7 +6,7 @@
 # catalog-version 1.3
 Name:		texlive-shorttoc
 Version:	1.3
-Release:	8
+Release:	9
 Summary:	Table of contents with different depths
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/shorttoc
