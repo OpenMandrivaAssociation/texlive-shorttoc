@@ -1,6 +1,6 @@
 Name:		texlive-shorttoc
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Table of contents with different depths
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/shorttoc
